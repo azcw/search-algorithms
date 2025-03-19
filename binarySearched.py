@@ -14,7 +14,6 @@ def binarySearch(data, key, lo, hi):
         mid = (lo + hi) // 2
         if data[mid] == key:
             return "found at", mid
-            f = True
         elif data[mid] < key:
             lo = mid + 1
         elif data[mid] > key:
